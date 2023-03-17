@@ -1,5 +1,9 @@
 {
-  "dependencies": {
-    "sass": "^1.59.3"
+"scripts":{
+  "sass": "sass --no-source-map styles/main.scss main.css",
+  "watch": "sass --no-source-map --watch styles/main.scss main.css"
+  },
+"dependencies": {
+  "sass": "^1.59.3"
   }
 }
